@@ -1,6 +1,7 @@
 {
     "functions": {
-        "api/index.php": {
-        }
+      "*.php": {
+        "runtime": "vercel-php@0.4.0"
+      }
     }
-}
+  }
