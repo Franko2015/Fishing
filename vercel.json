@@ -1,7 +1,6 @@
 {
     "functions": {
         "api/index.php": {
-            "runtine": "vercel-php@0.6.0"
         }
     }
 }
